@@ -87,7 +87,7 @@ app.get('/articles/all', function(request, response){
     })
 })*/
 Article.find({}, function (err, data) {
-    console.log(data)
+    //console.log(data)
     response.render('allArticles.ejs', {
       articles: data
     })

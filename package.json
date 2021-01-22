@@ -19,6 +19,6 @@
         "testEnvironment": "node"
     },
     "dependencies": {
-        "mongoose": "^5.11.8"
+        "mongoose": "^5.11.9"
     }
 }
